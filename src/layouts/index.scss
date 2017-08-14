@@ -1,0 +1,15 @@
+@import '../scss/partials/base';
+@import '../scss/partials/sanatize';
+
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+    font-family: $font-family;
+    font-weight: $light-Weight;
+    letter-spacing: $letter-spacing-big;
+}
+
+body {
+    font-size: $font-size;
+    line-height: $line-height;
+    letter-spacing: $letter-spacing-sml;
+}

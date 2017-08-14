@@ -30,6 +30,9 @@ const Header = () =>
           Gatsby
         </Link>
       </h1>
+      <nav>
+          <Link to="/page-2">Page 2</Link>
+      </nav>
     </div>
   </div>
 

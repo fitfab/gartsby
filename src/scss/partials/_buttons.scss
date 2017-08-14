@@ -1,0 +1,9 @@
+.button {
+    border-radius: 20px;
+    padding: 2px 10px;
+    border: 1px solid $dark;
+    &:hover {
+        background: $brand;
+        color: $white;
+    }
+}

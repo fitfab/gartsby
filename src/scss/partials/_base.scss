@@ -5,9 +5,18 @@ $regular-Weight: 400;
 $heavy-Weight: 700;
 
 // Base font
-$font-family: sans-serif;
+$font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 $font-size: 13px;
 $line-height: 1.4;
 $letter-spacing-sml: 1px;
 $letter-spacing-med: 2px;
 $letter-spacing-big: 5px;
+
+// colors
+
+$brand: rebeccapurple;
+$dark: #49375B;
+$white: #fff;
+$action: green;
+$warning: yellow;
+$error: red;

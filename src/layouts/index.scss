@@ -26,7 +26,13 @@ nav {
         color: $white;
         text-decoration: none;
         padding: 5px 10px;
-        border: 1px solid $dark;
+        background: $brand;
+        transform: translate(0px,31px) rotate(15deg);
+        margin: 0 20px;
+        span {
+            transform: rotate(-15deg);  
+            display: inline-block;
+        }
         &:hover {
             background: $white;
             color: $brand;

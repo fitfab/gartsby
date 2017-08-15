@@ -31,7 +31,10 @@ const Header = () =>
         </Link>
       </h1>
       <nav>
-          <Link to="/page-2">Page 2</Link>
+          <Link to="/page-2"><span>About</span></Link>
+          <Link to="/browse/"><span>Artist</span></Link>
+          <Link to="/login/"><span>Login</span></Link>
+          <Link to="/news/"><span>News</span></Link>
       </nav>
     </div>
   </div>

@@ -20,14 +20,16 @@ a {
     text-decoration: none;
 }
 
-nav a {
-    display: inline-block;
-    color: $white;
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 1px solid $dark;
-    &:hover {
-        background: $white;
-        color: $brand;
+nav {
+    a {
+        display: inline-block;
+        color: $white;
+        text-decoration: none;
+        padding: 5px 10px;
+        border: 1px solid $dark;
+        &:hover {
+            background: $white;
+            color: $brand;
+        }
     }
 }
